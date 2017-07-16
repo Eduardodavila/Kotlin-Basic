@@ -4,6 +4,7 @@ fun main(args: Array<String>) {
 
     val age: Int = 29
 
+
     if (age < 18) {
 
         println("You cannot register!")
@@ -21,4 +22,5 @@ fun main(args: Array<String>) {
         println("You're good to go!")
     }
     println("The end.")
+
 }

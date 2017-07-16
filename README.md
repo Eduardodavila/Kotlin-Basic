@@ -6,3 +6,6 @@ Kotlin is a statically-typed programming language that runs on the Java Virtual 
 https://kotlinlang.org/
 
 https://en.wikipedia.org/wiki/Comparison_of_programming_languages
+
+https://www.jetbrains.com/idea/download/
+Windows | macOS | Linux

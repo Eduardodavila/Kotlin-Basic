@@ -3,7 +3,7 @@ package conditionals
 fun main(args: Array<String>) {
     val mode: Int = 2
 
-    when (mode) {
+    val result = when (mode) {
         1 -> println("The mode is Lazy")
         2 -> {
             println("The mode is 2")

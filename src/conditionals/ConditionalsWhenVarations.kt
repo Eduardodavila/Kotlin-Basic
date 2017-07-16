@@ -2,7 +2,7 @@ package conditionals
 
 fun main(args: Array<String>) {
     val x = 9
-    when (x){
+    when (x) {
         0 -> println("X is= " + x)
         10 * 10 -> println("X is 3*12= " + x)
         "Hey there".length -> println("X is 'Hey there'= " + "Hey there".length)

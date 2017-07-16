@@ -4,6 +4,6 @@ fun main(args: Array<String>) {
     var age: Int = 45
     var myName = "Ed"
 
-    println(str1 +  str2 + " Age= " + age + " year old")
+    println(str1 + str2 + " Age= " + age + " year old")
 
 }

@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
         3 -> println("The mode is super-productive")
         else -> println("I don't know that mode.")
     }
-    if (mode < 1 || mode > 3){
+    if (mode < 1 || mode > 3) {
         println("NO entry")
     }
 }

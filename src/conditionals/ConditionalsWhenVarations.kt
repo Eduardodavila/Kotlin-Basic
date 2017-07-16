@@ -1,18 +1,14 @@
 package conditionals
 
 fun main(args: Array<String>) {
-    val mode: Int = 2
+    val x = 9
+    when (x){
+        0 -> println("X is= " + x)
+        10 * 10 -> println("X is 3*12= " + x)
+        "Hey there".length -> println("X is 'Hey there'= " + "Hey there".length)
+        in 1..10 -> println("X is between 1 and 10")
+        in 11..20 -> println()
+        !in 1..9 -> println("X is not between 1 to 10")
 
-    val result = when (mode) {
-        1 -> println("The mode is Lazy")
-        2 -> {
-            println("The mode is 2")
-            println("So the mode is busy")
-        }
-        3 -> println("The mode is super-productive")
-        else -> println("I don't know that mode.")
-    }
-    if (mode < 1 || mode > 3){
-        println("NO entry")
     }
 }

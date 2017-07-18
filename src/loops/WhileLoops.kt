@@ -6,4 +6,11 @@ fun main(args: Array<String>){
         println(x)
         x--
     }
+    println("////")
+
+    var i = 0
+    while (i <= 10){
+        println(i)
+        i++
+    }
 }

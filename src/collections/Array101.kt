@@ -1,4 +1,4 @@
-package Collections
+package collections
 
 fun main(args: Array<String>) {
     val array = arrayOf("Texas", "Iowa", "California")

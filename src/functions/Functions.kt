@@ -22,6 +22,7 @@ fun max(a: Int, b: Int): Int{
     }
 }
 
+
 fun main(args: Array<String>) {
     helloWorld()
     printWhitSpaces("Kotlin\n")
